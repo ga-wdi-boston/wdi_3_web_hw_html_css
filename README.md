@@ -19,6 +19,8 @@ Make sure you use at least one of each of the following:
 
 Use the [W3C HTML Validator](http://validator.w3.org/) and [W3C CSS Validator](http://jigsaw.w3.org/css-validator/) to ensure that your code has no errors and few warnings. 
 
+Do not use a CSS Framework for this assignment. 
+
 ### Bonus
 
 Try using the [Schema.org](http://schema.org) microformat to add additional meaning to the page. 
