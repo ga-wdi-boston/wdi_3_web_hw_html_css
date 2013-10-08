@@ -1,6 +1,5 @@
 #header {
 	background: black;
-	/*url(http://upload.wikimedia.org/wikipedia/lt/c/c3/Neuromancer_Brazilian_cover.jpg);*/
 	text-align: center;
 	border-radius: 20px;
 }
@@ -10,29 +9,38 @@
 }
 
 #header ul{
-	background: #787878 ;
+	background: black ;
+	font-family: 'Electrolize', sans-serif;
+	color: green;
 }
 
 #header li{
+	color: green;
 	display: inline;
 	list-style-type: none;
 	margin: 0px;
-	padding: 0px 40px 0px 40px;
-	
+	padding: 0px 40px 0px 40px;	
 }
 
-#header li a{
-	color: white;
-	font-family: helvetica;
+#header ul li a{
+	color: green;
+	font-family: 'Electrolize', sans-serif;
 	font-size: 20px;
 	font-variant: small-caps;	
 	text-decoration: none;
 }
 
+li {
+	list-style-type: none;
+}
+
 #content {
-	color: white;
 	font-family: 'Electrolize', sans-serif;
+	color: white;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
 }
 
 #title {
@@ -43,10 +51,35 @@
 	border-radius: 40px;
 }
 
+#booklist {
+	color: white;
+
+}
+
 body {
+	background: gray;
+	background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+#footer {
 	background: url(./images/schematic.jpg);
 	background-size: cover;
+	border-radius: 30px;
+	height: 80px;
 }
+
+
+
+
 
 
 /*http://2.bp.blogspot.com/-rw_009dgGeI/TeLjQhhw3WI/AAAAAAAAAEk/rtrPNqA7kww/s1600/schematic.jpg*/
