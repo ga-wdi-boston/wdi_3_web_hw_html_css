@@ -1,0 +1,145 @@
+body {
+	background-image: url("../img/lakeUmbagog.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.homepage {
+	background-color: #FFF;
+	padding: 20px;
+	width: 50%;
+	margin: 100px auto 0 auto;
+	border-width: 10px;
+	border-color: #666;
+}
+
+.logo {
+	text-align: center;
+}
+
+.logo img {
+	width: 250px;
+}
+
+.navigation {
+	font-family: 'Prata', serif;
+	font-size: 14px;
+	margin: 40px 0px 0px 0px;
+}
+
+.navigation ul {
+	text-align: center;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navigation li {
+	display: inline;
+	padding: 20px;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: #666;
+}
+
+.boat-info {
+	font-family: 'Prata', serif;
+	width: 70%;
+	display: table;
+	margin: 15px auto 0px auto;
+	background-size: 700px;
+	overflow: hidden;
+	border-style: solid;
+	border-color: #FFF;
+	border-width: 10px;
+	box-shadow: 0px 0px 0px 3px rgba(225,225,225,.7);
+}
+
+.boat-info .contentContainer {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+}
+
+.boat-info img {
+	width: 100%;
+}
+
+.boat-info .contentContainer h1 {
+    font-family: 'Prata', serif;
+    font-size: 1.7em;
+	color: rgba(255,255,255,.7);
+	line-height: 1.3em;
+}
+
+.boat-info .contentContainer h2 {
+    font-family: 'Prata', serif;
+    font-size: 1.2em;
+	color: rgb(255,255,255);
+	line-height: 0em;
+	padding: 15px;
+}
+
+.star {
+	height: 24px;
+	margin: auto 10px auto 10px;
+}
+
+.about {
+	width: 60%;
+	display: table;
+	margin: 20px auto 20px auto;
+	background-color: rgba(225,225,225,.6);
+	overflow: auto;
+	border-style: solid;
+	border-color: #FFF;
+	border-width: 10px;
+	box-shadow: 0px 0px 0px 3px rgba(225,225,225,.7);
+}
+
+.about .aboutText {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255,255,255,.6);
+}
+
+.about .aboutText h1 {
+    font-family: 'Prata', serif;
+    font-size: 1.2em;
+	color: rgba(20,51,82,.9);
+	line-height: 1em;
+	padding: 10px 0px 0px 0px;
+}
+
+.about .aboutText h2 {
+    font-family: 'Prata', serif;
+    font-size: 0.9em;
+	color: rgba(20,51,82,.9);
+	line-height: 0em;
+}
+
+.about .aboutText p {
+    font-family: 'Prata', serif;
+    font-size: 0.8em;
+	color: rgba(20,51,82,.9);
+	line-height: 1.6em;
+	text-align: justify;
+	padding: 10px 30px 20px 30px;
+}
+
+.socialMedia {
+	text-align: center;
+}
+
+.socialMedia img {
+	margin: 0px 2px 5px 2px;
+}
