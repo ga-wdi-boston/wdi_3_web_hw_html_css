@@ -9,6 +9,10 @@
 	height: 300px;
 }
 
+#header ul{
+	background: #787878 ;
+}
+
 #header li{
 	display: inline;
 	list-style-type: none;
@@ -25,8 +29,24 @@
 	text-decoration: none;
 }
 
-#body {
+#content {
+	color: white;
+	font-family: 'Electrolize', sans-serif;
+	text-align: center;
+}
 
+#title {
+	color: purple;
+}
+
+#content img {
+	border-radius: 40px;
+}
+
+body {
+	background: url(./images/schematic.jpg);
+	background-size: cover;
 }
 
 
+/*http://2.bp.blogspot.com/-rw_009dgGeI/TeLjQhhw3WI/AAAAAAAAAEk/rtrPNqA7kww/s1600/schematic.jpg*/
