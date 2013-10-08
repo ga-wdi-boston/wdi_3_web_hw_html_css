@@ -44,7 +44,7 @@ li {
 }
 
 #title {
-	color: purple;
+	color: red;
 }
 
 #content img {
@@ -53,12 +53,17 @@ li {
 
 #booklist {
 	color: white;
-
+	font-family: 'Electrolize', sans-serif;
+	margin-right: auto;
+	margin-left: auto;
+	width: 600px;
 }
 
 body {
-	background: gray;
+	background: url(http://wallpapers.leovacity.be/images/3D_Circuit_picture.jpg);
+	background-position: fixed;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 a {
@@ -70,12 +75,12 @@ a:visited {
 	color: white;
 }
 
-#footer {
+/*#footer {
 	background: url(./images/schematic.jpg);
 	background-size: cover;
 	border-radius: 30px;
 	height: 80px;
-}
+}*/
 
 
 
