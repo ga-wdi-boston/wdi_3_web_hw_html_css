@@ -13,10 +13,13 @@ li {
 	width: 350px;
 	font-size: 25px;
 	font-weight: bold;
+	position: fixed;
 }
 
 .page-header {
 	color: black;
+	text-align: center;
+
 }
 
 a {
