@@ -1,0 +1,32 @@
+#header {
+	background: black;
+	/*url(http://upload.wikimedia.org/wikipedia/lt/c/c3/Neuromancer_Brazilian_cover.jpg);*/
+	text-align: center;
+	border-radius: 20px;
+}
+
+#logo {
+	height: 300px;
+}
+
+#header li{
+	display: inline;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px 40px 0px 40px;
+	
+}
+
+#header li a{
+	color: white;
+	font-family: helvetica;
+	font-size: 20px;
+	font-variant: small-caps;	
+	text-decoration: none;
+}
+
+#body {
+
+}
+
+
