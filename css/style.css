@@ -1,0 +1,190 @@
+p, a {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 26px;
+	line-height: 32px;
+	margin: 15px 0;
+}
+
+ul li {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 26px;
+	line-height: 32px;
+	margin: 5px 0;
+}
+
+ul li a {
+	text-decoration: none;
+	color: tomato;
+}
+
+ul li a:hover {
+	color: #EE5236;
+}
+
+a.button {
+	padding: 20px 40px;
+	background-color: tomato;
+	color: white;
+	text-decoration: none;
+}
+
+a.button:hover {
+	background-color: #EE5236;
+}
+
+.margin-bottom {
+	margin-bottom: 40px;
+}
+
+h1 {
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 100px;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+	margin: 46px 0 14px;
+}
+
+.boxy {
+	padding: 2%;
+	background-color: rgba(0,0,0,0.4);
+	margin-top: 20px;
+	margin-bottom: 40px;
+	height: auto;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.page {
+	width: 100%;
+	min-height: 900px;
+	position: fixed;
+}
+
+.page-header {
+	margin: 60px 0;
+	text-align: center;
+}
+
+.page-header p {
+	font-size: 40px;
+	line-height: 40px;
+	color: #efefef;
+}
+
+p.subtitle {
+	font-size: 20px;
+	line-height: 20px;
+	color: #ccc;
+}
+
+.half {
+	display: inline-block;
+	width: 45%;
+	margin-right: 5%;
+}
+
+#homepage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(http://i.imgur.com/IxNgy9b.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-size: cover;
+	color: white;
+}
+
+#sports {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(http://img.izismile.com/img/img2/20091207/funny_moments_in_sports_000.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-size: cover;
+	color: white;
+}
+
+#art {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(http://cdn2.listsoplenty.com/listsoplenty-cdn/pix/uploads/2010/09/funny-fish-face-painting-2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-size: cover;
+	color: white;
+}
+
+#games {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(http://pantherbook.org/wp-content/uploads/2012/11/videogames.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-size: cover;
+	color: white;
+}
+
+#drinking {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(http://www.funnyboom.com/wp-content/uploads/2013/01/child-drinkig-milk-funny-wallpapers.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-size: cover;
+	color: white;
+}
+
+#shopping {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(http://cdn01.wallconvert.com/_media/wallpapers_1920x1080/1/2/shopping-11645.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-size: cover;
+	color: white;
+}
+
+#cats {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQL--4x9Si4hkmZLUPHbwTiKxHf-W4rzQ7Uno8o05ZWm6sSJAi8) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-size: cover;
+	color: white;
+}
+
+
+
+
