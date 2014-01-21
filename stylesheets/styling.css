@@ -1,0 +1,46 @@
+ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+#left_nav_bar {
+	float: left;
+	width: 350px;
+	font-size: 25px;
+	font-weight: bold;
+	position: fixed;
+}
+
+.page-header {
+	color: black;
+	text-align: center;
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+body {
+	font-family: 'Raleway Dots';
+	background: url(http://farm2.staticflickr.com/1238/1067252106_8c9b00bdbb_o.jpg) no-repeat fixed;
+	background-size: cover;
+	color: white;
+	font-size: 20px;
+}
+
+#main_info {
+	float: right;
+	width: 600px;
+	margin: 275px 0px 0px 40px;
+}
