@@ -6,13 +6,15 @@ Make sure you use at least one of each of the following:
 
 * `h1` and other headings
 * `p`
-* `ul`
+* `ul` or `ol`
 * `dl`
 * `a`
 * `img`
 * `div`
+* `section`
+* `nav`
 
-Use the [W3C HTML Validator](http://validator.w3.org/) and [W3C CSS Validator](http://jigsaw.w3.org/css-validator/) to ensure that your code has no errors and few warnings. 
+Use the W3C [HTML Validator](http://validator.w3.org/) and [CSS Validator](http://jigsaw.w3.org/css-validator/) to ensure your code has no errors and few warnings. 
 
 You may include a CSS reset, but all other CSS must be your own &ndash; no frameworks.
 
