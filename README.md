@@ -1,6 +1,6 @@
-# HTML and CSS Homework
+# HTML/CSS Homework
 
-Design and implement a basic site using HTML/CSS and images. Make 6-8 inter-linked pages using the HTML/CSS that we learned today. Be as serious, creative or funny as you'd like to be. 
+Design and implement a basic site using HTML/CSS and images. Make 6-8 interlinked pages using the HTML/CSS that we learned today. Be as serious, creative, or funny as you'd like to be.
 
 Make sure you use at least one of each of the following:
 
@@ -11,8 +11,10 @@ Make sure you use at least one of each of the following:
 * `a`
 * `img`
 * `div`
-* `section`
+* `span`
+* `section` or `article`
 * `nav`
+* Tag, ID, and class selectors in CSS
 
 Use the W3C [HTML Validator](http://validator.w3.org/) and [CSS Validator](http://jigsaw.w3.org/css-validator/) to ensure your code has no errors and few warnings. 
 
@@ -29,5 +31,5 @@ Try using [Google Fonts](http://google.com/fonts) to make the page all spiffy.
 * Cats
 * Internet Memes
 * Your favorite places in Boston/Cambridge
-* Your favorite parts of the 90s, when HTML was the hot new thing
+* Your favorite things from the 90s, when HTML was hot and new
 * A review of what we've learned about HTML and CSS so far
