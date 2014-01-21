@@ -1,0 +1,42 @@
+body {
+	background: url('http://eofdreams.com/data_images/dreams/red/red-04.jpg');
+	background-size: cover fixed;
+}
+
+a {
+	color: white;
+	font-family: 'helvetica' sans-serif;
+	text-decoration: none;
+}
+
+input {
+	border: 0;
+	padding: 10px;
+	font-size: 18px;
+}
+
+input[type='submit'] {
+	background: black;
+	color: white;
+}
+
+.menu {
+	text-align: center;
+	display: inline-block;
+	margin: 50px;
+	float: top;
+	color: white;
+	font-family: 'helvetica' sans-serif;
+}
+
+#left-side-split {
+	background: transparent;
+	float: left;
+	
+}
+
+#right-side-split {
+	background: transparent;
+	float: right;
+	
+}
