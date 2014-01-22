@@ -182,3 +182,71 @@ nav a, a:hover, a:visited, a:active {
 }
 
 
+
+@media (max-width: 760px) {
+
+body {
+	background: black;
+}
+
+}
+#logo img{
+	width: 80px;
+	padding: 10px 0 10px 10px;
+}
+
+header {
+	height: 100px;
+}
+
+h1 {
+	font-size: 200%;
+	bottom: 5px;
+	right: 30px;
+}
+
+nav ul li {
+	display: block;
+	font-size: 100%;
+}
+
+nav ul {
+	right: 30px;
+}
+
+h2 {
+	font-size: 110%;
+}
+
+.text-box {
+	position: absolute;
+	top:300px;
+	background-color: rgba(0, 0, 0, .7);
+}
+
+.left {
+	left: 0;
+	width: 100%;
+}
+
+.right {
+	right: 0;
+	width: 100%;
+}
+
+.content-text {
+	padding: 40px;
+}
+
+.content-text-left, .content-text-right {
+	width: 80%;
+	padding: 50px 5%;
+}
+
+.content-text-center {
+	width: 70%;
+	padding: 50px 40px 40px 10%;
+}
+
+}
+
