@@ -12,6 +12,17 @@ ul li {
 	margin: 5px 0;
 }
 
+dl {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 26px;
+	line-height: 32px;
+	margin: 5px 0;
+}
+
+dl dt {
+	color: tomato;
+}
+
 ul li a {
 	text-decoration: none;
 	color: tomato;
@@ -36,6 +47,10 @@ a.button:hover {
 	margin-bottom: 40px;
 }
 
+.center {
+	text-align: center;
+}
+
 h1 {
 	font-family: 'Droid Sans', sans-serif;
 	font-weight: 700;
@@ -54,7 +69,7 @@ h2 {
 
 .boxy {
 	padding: 2%;
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.45);
 	margin-top: 20px;
 	margin-bottom: 40px;
 	height: auto;
@@ -91,7 +106,30 @@ p.subtitle {
 .half {
 	display: inline-block;
 	width: 45%;
-	margin-right: 5%;
+	float: left;
+}
+
+.half:first-child {
+	margin-right: 2%;
+}
+
+.btn-large {
+	padding: 25px 50px;
+	color: white;
+	text-decoration: none;
+}
+
+.yes-no-btn {
+	padding: 20px 25px;
+	margin: 5px;
+	color: white;
+	text-decoration: none;
+}
+.yes {
+	background-color: green;
+}
+.no {
+	background-color: tomato;
 }
 
 #homepage {
