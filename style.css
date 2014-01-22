@@ -9,12 +9,16 @@ header {
   color: black;
   font-family: 'Buenard', serif;
   font-size: 45px;
+  border: 17px solid white;
+  border-radius: 20px;
 }
 h1 {
   background-color: #6600FF;
   color: black;
   font-family: 'Buenard', serif;
   font-size: 40px;
+  border: 17px solid white;
+  border-radius: 20px;
 }
 img {
   margin: 40px 0px 0px 0px;
