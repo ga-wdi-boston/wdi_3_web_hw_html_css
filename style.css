@@ -1,0 +1,53 @@
+body {
+	background-color: #95EDDF;
+	font-family: sans-serif;
+}
+
+nav {
+	font-size: 20px;
+	text-align: center;
+}
+
+article {
+	padding: 25px;
+	font-size: 18px;
+}
+
+div {
+	font-family: cursive;
+	font-size: 18px;
+	text-align: center;
+}
+
+span {
+	font-family: sans-serif;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+h1 {
+	font-color: purple;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 22px;
+}
+
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 7px;
+ }
+
+p {
+ 	text-align: center;
+ }
+
+a{
+	text-align: center;
+}
+
+a:hover {
+ 	font-color: red;
+ }
