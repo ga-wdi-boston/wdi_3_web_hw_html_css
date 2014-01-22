@@ -1,0 +1,28 @@
+body {
+  font-family: Helvetica, Verdana;
+}
+
+header {
+  width: 500px;
+  color: yellow;
+  background-color: rgb(33, 44, 199);
+}
+
+nav {
+  background-color: #00e2ed;
+}
+
+#hero-type {
+  position: relative;
+}
+
+#carry {
+  position: absolute;
+  top: 0;
+  left: 30%;
+}
+
+#support {
+  position: relative;
+  margin-top: 0;
+}
