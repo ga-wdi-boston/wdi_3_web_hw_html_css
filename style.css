@@ -1,0 +1,184 @@
+
+body {
+	font-family: Arial, sans-serif;
+	color: #FFF;
+}
+
+header {
+	position: relative;
+	background-color: black;
+	height: 170px;
+}
+
+#logo img{
+	width: 130px;
+	padding: 15px 0 10px 30px;
+	float: left;
+}
+
+h1 {
+	position: absolute;
+	font-family: 'Arial Black', Arial, sans-serif;
+	font-size: 500%;
+	font-variant: small-caps;
+	letter-spacing: 10px;
+	text-align: right;
+	bottom: 13px;
+	right: 60px;
+}
+
+h2 {
+	font-size: 140%;
+	line-height: 120%;
+	padding-bottom: 20px;
+}
+
+.center h2 {
+	padding-bottom: 0;
+
+}
+
+h3 {
+	font-size: 110%;
+	line-height: 100%;
+	padding-bottom: 20px;
+}
+
+p {
+	color: rgba(255, 255, 255, .4);
+	font-size: 110%;
+	line-height: 120%;
+}
+
+nav {
+	position: absolute;
+	background-color: rgba(0, 0, 0, .7);
+	height: 50px;
+	width: 100%;
+	text-align: right;
+	z-index: 1000;
+}
+
+nav ul {
+	position: relative;
+	right: 60px;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 15px 10px 15px;
+	font-size: 120%;
+}
+
+nav ul li:hover {
+	background-color: rgba(0, 0, 0, .9)
+}
+
+nav a, a:hover, a:visited, a:active {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#main ul {
+	padding: 10px;
+}
+
+#main ul li {
+	color: rgba(255, 255, 255, .6);
+	line-height: 110%;
+	font-size: 110%;
+	padding-bottom: 10px;
+}
+
+#page {
+	position: relative;
+	width: 100%;
+}
+
+#main {
+	position: relative;
+	width: 100%;
+	height: 700px;
+}
+
+#main.overview {
+	background: url('img/cornet.png');
+	background-size: cover;
+}
+
+#main.album {
+	background: url('img/album.jpg');
+	background-size: cover;
+}
+
+#main.studio {
+	background: url('img/studio.png');
+	background-size: cover;
+}
+
+#main.team {
+	background: url('img/door.png');
+	background-size: cover;
+}
+
+#main.social {
+	background: url('img/hill.png');
+	background-size: cover;
+}
+
+#main.site {
+	background: url('img/session.png');
+	background-size: cover;
+}
+
+.text-box {
+	position: absolute;
+	background-color: rgba(0, 0, 0, .7);
+}
+
+.left {
+	left: 0;
+	width: 40%;
+}
+
+.right {
+	right: 0;
+	width: 40%;
+}
+
+.center {
+	top: 80px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .8)
+}
+
+.wide {
+	width: 70%;
+}
+
+.content-text {
+	padding: 80px 40px 40px 40px;
+}
+
+.content-text-left {
+	position: relative;
+	float: left;
+	left: 8%;
+	width: 35%;
+	padding: 50px 40px 40px 40px;
+}
+
+.content-text-right {
+	position: relative;
+	float: right;
+	right: 8%;
+	width: 35%;
+	padding: 50px 40px 40px 10%;
+}
+
+.content-text-center {
+	width: 70%;
+	padding: 50px 40px 40px 10%;
+}
+
+
