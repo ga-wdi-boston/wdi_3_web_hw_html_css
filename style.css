@@ -9,7 +9,8 @@ h1 {
 }
 
 #main-header {
-  text-align: center;
+  font-style: italic;
+  font-size: 35px;
 }
 
 p {
@@ -65,6 +66,5 @@ span {
 
 dl {
   font-style: italic;
-  margin: 20px;
 }
 
