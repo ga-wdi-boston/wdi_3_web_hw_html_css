@@ -1,0 +1,231 @@
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%; /* Need to span entire height of window */
+  background: darkgray;
+}
+
+img {
+  height: 1.6rem;
+  width: 1.4rem;
+  float: right;
+  margin-top: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-left: 1.5rem;
+}
+
+
+h3 {
+  font-size: 1rem;
+  text-align: right;
+  margin-right: 1.5rem;
+}
+
+header, footer {
+  position: relative;
+  height: 2.2rem;
+  width: 100%;
+  background-color: rgba(35, 35, 35, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Helvetica Neue, Arial, sans-serif;
+  margin-bottom: 0;
+  line-height: 2.2rem;
+  vertical-align: middle;
+}
+
+header {
+  margin-top: 1em;
+  box-shadow: 0px 1px 2px white;
+}
+
+footer {
+  box-shadow: 0px -1px 2px white;
+}
+
+
+span {
+  color: rgba(255, 99, 71, 0.8); /* (this is tomato, obviously) */
+}
+
+.container {
+  margin: 0 auto;
+  position: absolute;
+  display: block;
+  padding: 0;
+  width: 100%;
+  height: 80%;
+  max-height: 475px;
+}
+
+.album_nav {
+  height: 100%;
+  font-size: 0; /* Random hack to make inline-block elements not have space-between */
+  background: rgba(0,0,0,0.8);
+}
+
+.album_nav ul {
+  text-align: center;
+  font-size: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.album_nav li {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0;
+  width: 20%;
+  max-width: 400px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#good_news {
+  background-image: url("../images/good_news.jpg");
+  background-position: 50% 50%;
+}
+
+#the_moon {
+  background: url("../images/the_moon.jpg");
+  background-position: 50% 50%;
+}
+
+#lonesome {
+  background: url("../images/lonesome.jpg");
+  background-position: 20% 60%;
+}
+
+#build_nothing {
+  background: url("../images/build_nothing.jpg");
+  background-position: 50% 50%;
+}
+
+#long_drive {
+  background: url("../images/long_drive.jpg");
+  background-position: 50% 50%;
+}
+
+.album_sect { /* Each cover */
+  background-size: fixed;
+  opacity: 0.7;
+  transition: opacity 0.5s;
+  /* Below is sick CSS trick that fixes weird Chrome fractional pixel rendering issues */
+  -webkit-transform: translateZ(0);
+}
+
+.album_sect:hover {
+  opacity: 1;
+}
+
+div.album_name {
+  font-size: 1.6rem;
+  font-family: 'Buenard', serif;
+  text-shadow: 1px 1px 3px tomato;  /* tomato because fuck it...TOMATO */
+  overflow: hidden;
+  width: 90%;
+  height: 100%;
+  text-align: left;
+  color: white;
+  position: relative;
+  top: 1.5rem;
+  padding-left: 0.6rem;
+}
+
+#about {
+  background: rgba(35, 35, 35, 0.7);
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-size: 1rem;
+  color: rgb(255,255,255);
+  position: absolute;
+  top: 80%;
+  padding: 0.6rem 1.2rem;
+  box-shadow: 0px 0px 2px white;
+}
+
+#about h2 {
+  color: rgba(255, 99, 71, 0.8);  font-size: 1.2rem;
+  padding-bottom: 0.4rem;
+  line-height: 1.6rem;
+}
+
+.thirds {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0;
+  width: 32%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.thirds blockquote {
+  font-family: 'Permanent Marker', cursive;
+  height: 60%;
+  width: 100%;
+  font-size: 2.2rem;
+  position: relative;
+  top: 15%;
+  text-align: center;
+}
+
+.thirds.album_info {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-size: 1.0rem;
+}
+
+.thirds.album_info dl {
+  width: 100%;
+  position: relative;
+  font-size: 0.9rem;
+  top: 0.6rem;
+  padding-top: 0.8rem;
+  margin-left: 0.8rem;
+  line-height: 1.4rem;
+}
+
+.thirds.album_info dt {
+  font-weight: bold;
+  float: left;
+  clear: left;
+  display: inline-block;
+}
+
+.thirds.album_info dd {
+  float: right;
+  clear: right;
+}
+
+.tracklist {
+  width: 100%;
+}
+
+.tracklist li {
+  padding-left: 0.2rem;
+  margin: 0;
+}
+
+.tracklist li:nth-child(2n) {
+  background: rgba(235, 235, 235, 0.8);
+}
