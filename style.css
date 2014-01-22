@@ -1,0 +1,106 @@
+body {
+  font-family: 'Audiowide', cursive;
+}
+
+#container {
+  width: 900px;
+  text-align: center;
+  transition: width .8s ease-in-out;
+}
+
+article, header {
+  text-align: left;
+  width: 500px;
+  position: relative;
+  left: 50%;
+  margin-left: -250px;
+}
+
+/* headers all center */
+h1, h2, h3, header {
+  text-align: center;
+}
+
+/* two sections - individual style */
+#nonsensical {
+  border: 2px dashed;
+  background-color: #FFCCFF;
+}
+
+#practical {
+  border: 2px solid;
+  background-color: #CCFF99;
+  margin-top: 20px;
+}
+
+/* some element specfic styling */
+dt {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2em;
+}
+img {
+  width: 400px;
+  border: 2px solid;
+  box-shadow: 4px 4px 4px #CC9900;
+  margin-bottom: 25px;
+  /* for webkit browsers only - grayscale filter animation */
+  -webkit-animation: profile_img 4s ease-in-out;
+  /* initial setting */
+  -webkit-filter: grayscale(0.9);
+  /* keep the new setting post animation */
+  -webkit-animation-fill-mode: forwards;
+}
+
+footer {
+  border-top: 4px dashed;
+  margin-top: 20px;
+  background-color: #99CCFF;
+  padding-bottom: 10px;
+}
+
+/* footer nav styling */
+
+footer > nav a {
+  text-decoration: none;
+  color: #FFF;
+  margin: 0 20px;
+  transition: color 2s ease-in-out;
+}
+
+footer > nav a:hover, footer > nav a:visited {
+  color: #000;
+}
+
+
+/* keyframes */
+/* not including other vendor prefixes since filter only works on webkit */
+@-webkit-keyframes profile_img {
+  25% { -webkit-filter: grayscale(.7) }
+  50% { -webkit-filter: grayscale(.5) }
+  75% { -webkit-filter: grayscale(.2) }
+  100% { -webkit-filter: grayscale(0) }
+}
+
+/* media queries */
+@media (max-width: 900px) {
+  #container {
+    width: 750px;
+  }
+}
+
+@media (max-width: 650px) {
+  #container {
+    width: 400px;
+  }
+  section {
+    overflow: hidden;
+    width: 100%;
+  }
+  article {
+    width: 100%;
+    left: 0;
+    margin-left: 0;
+    padding: 5px;
+  }
+}
