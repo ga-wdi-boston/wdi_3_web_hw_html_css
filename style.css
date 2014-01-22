@@ -26,6 +26,8 @@ body {
   background: #9999FF;
   font-family: 'Buenard', serif;
   font-size: 20px;
+  margin: 5%;
+  padding: 10%;
 }
 
 li {
@@ -40,4 +42,14 @@ li {
 }
 .skills-list li {
   display: block;
+}
+
+a:link{
+  color:#0033CC;
+}
+a:visited{
+  color:#0033CC;
+}
+a:hover{
+  color:#FF00FF;
 }
