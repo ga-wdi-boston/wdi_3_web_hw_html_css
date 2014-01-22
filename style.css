@@ -1,0 +1,105 @@
+html{
+	background: url(cover.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+body {
+	color: white;
+}
+
+div.name {
+	position: relative;
+	margin-top: 4%;
+	left: 47%;
+	width: 500px;
+}
+
+div.name h1, div.name h1 a {
+	font-family: 'Righteous', sans-serif;
+	font-size: 150px;
+	text-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+	color: white;
+	text-decoration: none;
+	width: 500px;
+}
+
+div.name h2 {
+	font-family: 'Righteous', sans-serif;
+	font-size: 34px;
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+	position: relative;
+	left: 38%;
+}
+
+nav {
+	position: relative;
+	left: 57%;
+	margin-top: 15%;
+	font-family: 'Dosis', sans-serif;
+	max-width: 600px;
+}
+
+nav ul li {
+	display: inline;
+	background: rgba(0,0,0,0.4);
+	font-size: 28px;
+	margin: 6px;
+	padding: 10px;
+	border-radius:10px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #ffff40;
+}
+
+article {
+	position: relative;
+	left: 49%;
+	margin-top: 3%;
+	width: 600px;
+	padding: 15px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	background: rgba(0,0,0,0.4);
+	border-radius:10px;
+	padding-top:25px;
+	margin-bottom: 15px;
+}
+
+p, dl, dd, dt {
+	line-height: 28px;
+}
+
+dd {
+	padding-left: 15px;
+}
+
+dt {
+	padding-top: 15px;
+}
+
+dl {
+	margin-top: -15px;
+	margin-bottom: 15px;
+}
+
+article img {
+	width: 570px;
+	border-radius: 15px;
+	margin-top: 15px;
+	margin-bottom: 35px;
+	margin-left: 15px;
+}
+
+article a {
+	text-decoration: none;
+}
+
+article a:hover{
+	color: #ffff40;
+}
