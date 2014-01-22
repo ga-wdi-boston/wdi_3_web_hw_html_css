@@ -1,0 +1,27 @@
+
+
+body{
+	background: url(classical_font.jpg);
+	background-repeat: no-repeat;
+}
+
+h1{
+	font-size: 100px;
+	color: #FA1A16;
+}
+
+
+
+a {       
+	display: block; 
+	width: 350px; 
+	height: 43px; 
+	font-size: 33px;
+	text-decoration: none;
+	color: black;
+	position: relative;
+	left: 38%;
+	}
+a:hover{
+	background-color: white;
+}

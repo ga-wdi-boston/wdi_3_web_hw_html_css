@@ -1,0 +1,35 @@
+h1{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+nav {
+	background-color: #BDBCC4;
+}
+nav a {
+	text-decoration: none;
+}
+nav a:hover{
+	text-decoration: underline;
+}
+
+div{
+	text-align: center;
+}
+
+.abc {       
+	display: block; 
+	width: 350px; 
+	height: 43px; 
+	font-size: 33px;
+	text-decoration: none;
+	color: black;
+	position: relative;
+	left: 38%;
+	}
+.abc:hover{
+	background-color: white;
+}
