@@ -40,15 +40,14 @@ img.displayed {
   padding: 7px;
  }
 
- p {
+p {
  	text-align: center;
  }
 
- a {
- 	margin-left: auto;
-  margin-right: auto;
- }
+a{
+	text-align: center;
+}
 
- a:hover {
+a:hover {
  	font-color: red;
  }
